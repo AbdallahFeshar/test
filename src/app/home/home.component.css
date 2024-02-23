@@ -1,0 +1,29 @@
+section{
+    background-color: #1abc9c;
+    
+  }
+  /* .frame{
+    font-size: 50px;
+  } */
+   section .star{
+    position: relative;
+  }
+  
+  section .star .before::before{
+    content: "";
+    position: absolute;
+    top: 40% ;
+    left: 30%;
+    height: 18%;
+    width: 15%;
+    background-color: white;
+  }
+  section .star  .after::after{
+    content: "";
+    position: absolute;
+    top: 40% ;
+    right: 30%;
+    height: 18%;
+    width: 15%;
+    background-color: white;
+  }

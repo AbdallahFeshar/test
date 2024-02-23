@@ -1,0 +1,51 @@
+.star{
+    position: relative;
+  }
+  section .star .before::before{
+    content: "";
+    position: absolute;
+    top: 40% ;
+    left: 40%;
+    height: 4px;
+    width: 7%;
+    background-color: #2C3E50;
+  }
+  section .star  .after::after{
+    content: "";
+    position: absolute;
+    top: 40% ;
+    right: 40%;
+    height: 4px;
+    width: 7%;
+    background-color: #2C3E50;
+  }
+  .line-color{
+    color: #2C3E50;
+  }
+  .package{
+    position: relative;
+  }
+  .img-hover{
+    
+    background-color: #1abc9c;
+    position: absolute;
+     width: 100%;
+    height: 100%;
+    bottom: 0%;
+    left:0%; 
+    opacity: 0;
+    /* transform: translatex(180deg); */
+    transition: 1s opacity;
+  
+    
+  }
+  .package:hover .img-hover{
+    /* transform: translatex(0deg); */
+    /* left:0; */
+    opacity: .8;
+  }
+  .img-hover i{
+    font-size: 96px;
+    font-weight: 900;
+    color: #fff;
+  }
